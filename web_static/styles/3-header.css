@@ -7,5 +7,9 @@ header{
 .logo_header{
   width: 100%;
   text-align: left;
-  padding: 5px 0px 0px 20px;
+  padding: 5px 0px 0px 0px;
+}
+
+img{
+  padding-left: 20px
 }
