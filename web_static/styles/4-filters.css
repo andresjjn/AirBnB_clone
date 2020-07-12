@@ -18,3 +18,7 @@
   margin-right: 30px;
   margin-top: 10px;
 }
+
+.search:hover{
+  opacity: 0.9;
+}
