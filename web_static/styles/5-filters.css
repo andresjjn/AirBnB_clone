@@ -28,7 +28,6 @@
   width: 25%;
   float: left;
   font-weight: 600;
-  padding-top: 10px;
   padding-left: 35px;
 }
 
@@ -37,14 +36,13 @@
   width: 25%;
   float: left;
   border-right: 1px solid #DDDDDD;
-  padding-top: 10px;
   padding-left: 35px;
 }
 
 .t_1{
   font-weight: 600;
   color: #484848;
-  margin-top: 5px;
+  margin-top: 15px;
   margin-bottom: 5px;
 }
 
