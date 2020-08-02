@@ -4,6 +4,9 @@
   width: 100%;
   border: 1px solid #DDDDDD;
   border-radius: 4px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .search{
@@ -14,19 +17,32 @@
   border: 0px;
   width: 20%;
   border-radius: 4px;
-  float: right;
   margin-right: 30px;
-  margin-top: 10px;
+  flex: 2;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .search:hover{
   opacity: 0.9;
 }
+.locations, .amenities h3{
+  margin: 0px 40px;
+  font-weight: 600;
+}
+
+.locations, .amenities h4{
+  margin: 0px 40px;
+  font-weight: 400;
+  font-size: 14px;
+}
 
 .amenities{
   height: 100%;
   width: 25%;
-  float: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   font-weight: 600;
   padding-left: 35px;
 }
@@ -34,21 +50,9 @@
 .locations{
   height: 100%;
   width: 25%;
-  float: left;
-  border-right: 1px solid #DDDDDD;
-  padding-left: 35px;
-}
-
-.t_1{
   font-weight: 600;
-  color: #484848;
-  margin-top: 15px;
-  margin-bottom: 5px;
-}
-
-.t_2{
-  font-weight: 400;
-  font-size: 14px;
-  color: #484848;
-  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-right: 1px solid #DDDDDD;
 }
