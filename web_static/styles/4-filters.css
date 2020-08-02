@@ -4,6 +4,9 @@
   width: 100%;
   border: 1px solid #DDDDDD;
   border-radius: 4px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .search{
@@ -14,9 +17,7 @@
   border: 0px;
   width: 20%;
   border-radius: 4px;
-  float: right;
   margin-right: 30px;
-  margin-top: 10px;
 }
 
 .search:hover{
